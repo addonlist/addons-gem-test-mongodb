@@ -10,6 +10,8 @@
 * `rails generator launchbox:install`
 * SIGN UP FOR LAUNCHBOX
 * set `ENV['LAUNCHBOX_USER_EMAIL']` and `ENV['LAUNCHBOX_USER_TOKEN']` environment variables
+* `rails console` or `rails server` will have set all environment variables and create a config/application.yml
+* HEROKU USERS ONLY: `rake figaro:heroku` will set all your heroku environment variables
 * Add code to integrate with your services. All environment variables for those services are securely populated by the Launchbox gem
 
 ### MongoLab Integration #1
