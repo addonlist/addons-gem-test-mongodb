@@ -18,10 +18,11 @@ end
 
 # App Gems
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
-gem 'launchbox', '~> 0.0.4'
-gem 'figaro'
+gem 'launchbox', '~> 0.0.5'
 
 # gem 'bcrypt-ruby', '~> 3.1.2'
 # gem 'unicorn'
 # gem 'capistrano', group: :development
 # gem 'debugger', group: [:development, :test]
+
+gem 'figaro' # Launchbox dependency
