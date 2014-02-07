@@ -18,6 +18,7 @@ end
 
 # App Gems
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
+gem 'launchbox', '~> 0.0.2'
 
 # gem 'bcrypt-ruby', '~> 3.1.2'
 # gem 'unicorn'
