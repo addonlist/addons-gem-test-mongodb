@@ -4,7 +4,8 @@
 
 ## Integrating with Launchbox is Simple
 
-* add `gem 'launchbox', '~> 0.0.2'` to your Gemfile
+* add `gem 'launchbox', '~> 0.0.3'` to your Gemfile
+* add `gem 'figaro'` to your Gemfile
 * `bundle install`
 * `rails generator launchbox:install`
 * SIGN UP FOR LAUNCHBOX

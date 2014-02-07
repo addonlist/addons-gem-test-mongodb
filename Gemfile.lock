@@ -49,6 +49,9 @@ GEM
     connection_pool (1.2.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -58,7 +61,8 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.1)
-    launchbox (0.0.2)
+    launchbox (0.0.3)
+      figaro
       json
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -128,9 +132,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  figaro
   jbuilder (~> 1.2)
   jquery-rails
-  launchbox (~> 0.0.2)
+  launchbox (~> 0.0.3)
   mongoid!
   rails (= 4.0.1)
   sass-rails (~> 4.0.0)
