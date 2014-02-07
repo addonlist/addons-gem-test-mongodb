@@ -28,6 +28,8 @@ class EmailsController < ApplicationController
 
     respond_to do |format|
       if @email.save
+        send_simple_message(@email)
+
         format.html { redirect_to @email, notice: 'Email was successfully created.' }
         format.json { render action: 'show', status: :created, location: @email }
       else
@@ -35,6 +37,15 @@ class EmailsController < ApplicationController
         format.json { render json: @email.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def send_simple_message(email)
+    RestClient.post "https://api:#{ENV['MAILGUN_API_KEY']}"\
+    "@api.mailgun.net/v2/sandbox28428.mailgun.org/messages",
+    :from => email.from,
+    :to => email.to,
+    :subject => email.subject,
+    :text => email.body
   end
 
   # PATCH/PUT /emails/1
