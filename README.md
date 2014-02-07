@@ -30,6 +30,7 @@ production:
         max_retries: 30
         retry_interval: 1
         timeout: 30
+````
 
 ### Mailgun Integration
 
@@ -42,3 +43,4 @@ def send_simple_message(email)
   :subject => email.subject,
   :text => email.body
 end
+````
