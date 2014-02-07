@@ -4,10 +4,10 @@
 
 ## Integrating with Launchbox is Simple
 
-* add `gem 'launchbox', '~> 0.0.3'` to your Gemfile
-* add `gem 'figaro'` to your Gemfile
-* `bundle install`
+* add `gem 'launchbox', '~> 0.0.5'` to your Gemfile
+* `bundle install` installs launchbox
 * `rails generator launchbox:install`
+* `bundle install` installs figaro
 * SIGN UP FOR LAUNCHBOX
 * set `ENV['LAUNCHBOX_USER_EMAIL']` and `ENV['LAUNCHBOX_USER_TOKEN']` environment variables
 * `rails console` or `rails server` will have set all environment variables and create a config/application.yml
