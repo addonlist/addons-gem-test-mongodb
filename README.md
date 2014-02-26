@@ -6,7 +6,7 @@
 
 * add `gem 'addons', '~> 0.0.6'` to your Gemfile
 * `bundle install` installs addons
-* `rails generator launchbox:install`
+* `rails generator addons:install`
 * `bundle install` installs figaro
 * SIGN UP FOR ADDONS LAUNCHBOX
 * set `ENV['ADDONS_APP_ID']` and `ENV['ADDONS_APP_TOKEN']` environment variables
