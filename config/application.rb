@@ -15,8 +15,8 @@ module LaunchboxGemTestMongodb
   class Application < Rails::Application
 
     # NOTE: Don't put this in production code! This is just an example, meant to work for everyone out of the box.
-    ENV['LAUNCHBOX_USER_EMAIL'] = 'ben@addonlist.com'
-    ENV['LAUNCHBOX_USER_TOKEN'] = 'iXZfkrcSqcZW9pPvK6bv'
+    ENV['ADDONS_APP_ID'] = 'app_7180760f-e51f-47ec-a541-39d7d3a5abae'
+    ENV['ADDONS_APP_TOKEN'] = '171vKXyxSsTj9rWpQuPF'
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
