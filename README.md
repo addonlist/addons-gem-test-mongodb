@@ -4,12 +4,12 @@
 
 ## Integrating with Launchbox is Simple
 
-* add `gem 'launchbox', '~> 0.0.5'` to your Gemfile
-* `bundle install` installs launchbox
-* `rails generator launchbox:install`
+* add `gem 'addons', '~> 0.0.6'` to your Gemfile
+* `bundle install` installs addons
+* `rails generator addons:install`
 * `bundle install` installs figaro
-* SIGN UP FOR LAUNCHBOX
-* set `ENV['LAUNCHBOX_USER_EMAIL']` and `ENV['LAUNCHBOX_USER_TOKEN']` environment variables
+* SIGN UP FOR ADDONS LAUNCHBOX
+* set `ENV['ADDONS_APP_ID']` and `ENV['ADDONS_APP_TOKEN']` environment variables
 * `rails console` or `rails server` will have set all environment variables and create a config/application.yml
 * HEROKU USERS ONLY: `rake figaro:heroku` will set all your heroku environment variables
 * Add code to integrate with your services. All environment variables for those services are securely populated by the Launchbox gem
